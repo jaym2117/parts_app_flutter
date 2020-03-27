@@ -1,0 +1,31 @@
+name: parts_app_flutter
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+4
+  flutter_secure_storage: ^3.3.1+1
+  rflutter_alert: ^1.0.3
+  animated_text_kit: ^2.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+  - images/
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: fonts/raleway/Raleway-Bold.ttf
+        - asset: fonts/raleway/Raleway-Regular.ttf
+
